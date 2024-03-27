@@ -1,0 +1,41 @@
+/* In your CSS file or Tailwind CSS configuration */
+
+.btn-blue {
+    @apply bg-blue-500 text-white py-2 px-4 rounded-md transition duration-300 ease-in-out;
+}
+
+.btn-blue:hover {
+    @apply bg-blue-600;
+}
+
+.btn-orange {
+    @apply bg-orange-500 text-white py-2 px-4 rounded-md transition duration-300 ease-in-out;
+}
+
+.btn-orange:hover {
+    @apply bg-orange-600;
+}
+
+.btn-red {
+    @apply bg-red-500 text-white py-2 px-4 rounded-md transition duration-300 ease-in-out;
+}
+
+.btn-red:hover {
+    @apply bg-red-600;
+}
+
+.btn-green {
+    @apply bg-green-500 text-white py-2 px-4 rounded-md transition duration-300 ease-in-out;
+}
+
+.btn-green:hover {
+    @apply bg-green-600;
+}
+
+.btn-purple {
+    @apply bg-purple-500 text-white py-2 px-4 rounded-md transition duration-300 ease-in-out;
+}
+
+.btn-purple:hover {
+    @apply bg-purple-600;
+}

@@ -1,0 +1,34 @@
+.faq {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    margin-bottom: 10px;
+}
+
+.faq-question {
+    cursor: pointer;
+    color: #333;
+}
+
+.faq-answer {
+    margin-top: 5px;
+    
+}
+.faq .dark{
+    background-color: #333;
+    color: #1c3feb;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 4px rgba(197, 188, 188, 0.1);
+}

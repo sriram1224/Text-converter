@@ -1,0 +1,12 @@
+.light-mode {
+    color: #000;
+   margin-top: 50px;
+   align-items: center;
+    background-color: #fff;
+}
+
+.dark-mode {
+    color: #fff;
+    /* This is the color for dark mode. Change it to whatever you want. */
+    background-color: #000;
+}

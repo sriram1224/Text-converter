@@ -1,0 +1,90 @@
+/* Navbar Container */
+.navbar-container.light {
+    background-color: #fff;
+    color: #333;
+}
+
+/* Dark mode styles */
+.navbar-container.dark {
+    background-color: #333;
+    color: #ff0000;
+}
+
+
+/* Navbar Brand */
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1;
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Navbar Toggle Button */
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+/* Navbar Toggle Icon */
+.navbar-toggle-icon {
+    height: 24px;
+    width: 24px;
+    fill: currentColor;
+}
+
+/* Navbar Menu */
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.navbar-menu.open {
+    display: flex;
+}
+
+/* Navbar Link */
+.navbar-link {
+    font-size: 16px;
+   
+    text-decoration: none;
+}
+
+/* Toggle Dark Mode */
+.toggle-dark-mode {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-track {
+    width: 32px;
+    height: 16px;
+    background-color: #ccc;
+    border-radius: 8px;
+    position: relative;
+}
+
+.toggle-track:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.toggle-dark-mode input[type="checkbox"]:checked+.toggle-track:after {
+    transform: translateX(16px);
+}
+
+.toggle-label {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #333;
+}

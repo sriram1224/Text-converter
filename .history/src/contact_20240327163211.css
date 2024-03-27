@@ -1,0 +1,15 @@
+.light-mode {
+    color: #000;
+   margin-top: 50px;
+   align-items: center;
+    background-color: #fff;
+    text-align: center;
+}
+
+.dark-mode {
+    color: #fff;
+margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+}

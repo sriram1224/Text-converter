@@ -1,0 +1,44 @@
+
+import { useState } from "react";
+import './about.css'
+function FAQItem({ question, answer, isDarkMode }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleAnswer = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <div className={`faq-item ${isDarkMode ? 'light-item' : 'dark-item'}`}>
+      <div onClick={toggleAnswer} className={`faq-question ${isDarkMode ? 'dark-text' : 'light-text'}`}>
+        <strong>{question}</strong>
+      </div>
+      {isOpen && <div className={`faq-answer ${isDarkMode ? 'dark-text' : 'light-text'}`}>{answer}</div>}
+    </div>
+  );
+}
+
+function About({isDarkMode}) {
+  return (
+    <div className={`faq ${isDarkMode ? 'light-item' : 'dark-item'}`}>
+      <h1>About us</h1>
+       <FAQItem
+        question="What is your return policy?"
+        answer="Our return policy allows returns within 30 days of purchase."
+        isDarkMode={isDarkMode}
+      />
+      <FAQItem
+        question="How can I track my order?"
+        answer="You can track your order by logging into your account."
+        isDarkMode={isDarkMode}
+      />
+      <FAQItem
+        question={"Can I cancel my order?"}
+        answer={"You can cancel your order within 24 hours of placing it."}
+        isDarkMode={isDarkMode}
+      />
+
+    </div>
+  );
+}
+export default About;

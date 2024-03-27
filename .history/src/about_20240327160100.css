@@ -1,0 +1,60 @@
+/* Dark Mode */
+.faq.dark-item {
+    background-color: #ffffff;
+    
+    color: #fff;
+   
+}
+
+.faq.dark-item h1 {
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+    
+}
+
+.faq-item.dark-item {
+    border: 1px solid #555;
+    
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.faq-question.dark-text {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.faq-answer.dark-text {
+    padding: 10px;
+}
+
+.faq.light-item {
+    background-color: #fff;
+    
+    color: #333;
+   
+}
+
+.faq.light-item h1 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    /* Dark text color for the heading */
+}
+
+.faq-item.light-item {
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.faq-question.light-text {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.faq-answer.light-text {
+    padding: 10px;
+}

@@ -1,0 +1,58 @@
+/* Dark Mode */
+.faq.dark-item {
+    background-color: #333;
+    /* Dark background color */
+    color: #fff;
+    /* Light text color */
+}
+
+.faq.dark-item h1 {
+    color: #fff;
+    text-align: center;
+    /* Light text color for the heading */
+}
+
+.faq-item.dark-item {
+    border: 1px solid #555;
+    /* Dark border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.faq-question.dark-text {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.faq-answer.dark-text {
+    padding: 10px;
+}
+/* Light Mode */
+.faq.light-item {
+    background-color: #fff;
+    /* Light background color */
+    color: #333;
+    /* Dark text color */
+}
+
+.faq.light-item h1 {
+    color: #333;
+    text-align: center;
+    /* Dark text color for the heading */
+}
+
+.faq-item.light-item {
+    border: 1px solid #ccc;
+    /* Light border */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.faq-question.light-text {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.faq-answer.light-text {
+    padding: 10px;
+}

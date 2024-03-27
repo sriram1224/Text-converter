@@ -1,0 +1,11 @@
+.light-mode {
+    color: #000;
+   mar
+    background-color: #fff;
+}
+
+.dark-mode {
+    color: #fff;
+    /* This is the color for dark mode. Change it to whatever you want. */
+    background-color: #000;
+}
