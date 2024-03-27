@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Text Editor Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Welcome to the Text Editor Website project! This project aims to create a robust text editor using ReactJS with state management via useReducer. The text editor will provide various features to enhance the user's editing experience, including dark and light mode options, real-time feedback on text statistics, text preview, text transformations, and additional functionalities like clearing text, removing extra spaces, and copying text to the clipboard.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### User Interface Design
+- Intuitive and visually appealing interface design.
+- Options for dark and light modes.
+- Text input area.
+- Controls for text-related functionalities.
+- Real-time text statistics display.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Dark/Light Mode
+- Toggle switch for switching between dark and light modes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Text Input and Statistics
+- Input area for users to enter text.
+- Real-time feedback on text statistics:
+  - Word count
+  - Character count
+  - Estimated reading time
 
-### `npm test`
+### Text Preview
+- Real-time preview section displaying the user's document.
+- Live updates as the user types.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Text Transformations
+- Buttons to convert text to uppercase and lowercase.
 
-### `npm run build`
+### Clear Text and Remove Extra Spaces
+- "Clear Text" button to clear all text input.
+- Feature to remove extra spaces from entered text.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Copy To Clipboard
+- "Copy To Clipboard" button to copy all text input to the clipboard.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To set up the project locally, follow these steps:
 
-### `npm run eject`
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server using `npm start`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ReactJS
+- JavaScript
+- HTML
+- CSS
+### Preview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You can view the component in action [here](https://text-converter-u9lpm8xuo-sriram1224s-projects.vercel.app/).
+### Repo
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You can view the component in action [here](https://github.com/sriram1224/Text-converter).
+## Getting Started
 
-## Learn More
+To use the text editor website, follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Visit the deployed website or run the project locally.
+2. Enter your text in the provided input area.
+3. Toggle between dark and light modes based on your preference.
+4. Use the text transformation buttons to convert text to uppercase or lowercase.
+5. Clear text using the "Clear Text" button.
+6. Remove extra spaces from text using the corresponding functionality.
+7. Copy text to the clipboard using the "Copy To Clipboard" button.
+8. Enjoy using the versatile text editor for all your writing needs!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributors
 
-### Code Splitting
+- [Your Name]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
+Special thanks to [Any additional resources or contributors you want to acknowledge].
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize this README file according to your project specifics. Good luck with your Text Editor Website project!
